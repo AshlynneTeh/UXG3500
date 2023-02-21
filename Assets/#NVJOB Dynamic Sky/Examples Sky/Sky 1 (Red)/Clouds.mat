@@ -163,7 +163,7 @@ Material:
     - _VectorY3: -0.5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.92156863, g: 0.37932113, b: 0.28292155, a: 0.67058825}
+    - _Color: {r: 0.3529412, g: 0.43137255, b: 0.62352943, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Level0Color: {r: 0.37, g: 0.78, b: 0.92, a: 1}
