@@ -852,8 +852,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 772579457}
   - {fileID: 1157003024}
+  - {fileID: 772579457}
   - {fileID: 2018783874}
   - {fileID: 352432032}
   - {fileID: 964004166}
@@ -4041,7 +4041,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 160677514}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 16.378, y: -104.931, z: -82.414}
 --- !u!1 &790027527
 GameObject:
@@ -6189,7 +6189,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 160677514}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -11.464, y: 161.748, z: -0.049}
 --- !u!114 &1157003025
 MonoBehaviour:
