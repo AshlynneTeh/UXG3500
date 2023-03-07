@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7712,6 +7712,16 @@ PlayableDirector:
     value: {fileID: 988568020}
   - key: {fileID: 8838369937961275508, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
     value: {fileID: 182364109}
+  - key: {fileID: -513182603697839710, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3647220722345676240, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5119728240519045762, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3259504666404227206, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2575405793337488242, guid: 16d0726dfb7a4b845a6abd51d536846a, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 7885c71b262ea9e46b6fd3f826173083: {fileID: 0}
@@ -8325,6 +8335,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c3e6d75be803d0144af758625cf1226e, type: 3}
   m_PrefabInstance: {fileID: 135415027}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &965435164
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965435161}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &984824621
 GameObject:
   m_ObjectHideFlags: 0
@@ -12459,6 +12489,8 @@ PlayableDirector:
     value: {fileID: 1056696625}
   - key: {fileID: 2578797339402320614, guid: dbb1f00ee9995d94c8a5b0a88ca50c92, type: 2}
     value: {fileID: 1056696624}
+  - key: {fileID: -7931703675960636833, guid: dbb1f00ee9995d94c8a5b0a88ca50c92, type: 2}
+    value: {fileID: 965435164}
   m_ExposedReferences:
     m_References:
     - 928a81e64e174804db2d98621977de1e: {fileID: 965435161}
