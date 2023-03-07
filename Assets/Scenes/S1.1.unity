@@ -8521,8 +8521,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751652809}
-  m_LocalRotation: {x: -0.089249834, y: 0.025395466, z: 0.0022764436, w: 0.9956829}
-  m_LocalPosition: {x: 2.4, y: -3.56, z: -13.9}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98, y: -5.86, z: 269}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18298,12 +18298,14 @@ PlayableDirector:
     m_References:
     - 7885c71b262ea9e46b6fd3f826173083: {fileID: 0}
     - 554b4cac35945c64bb364a7319e3cda4: {fileID: 1180084457}
+    - 9b7cd96ba905c0a40bba96316b27280f: {fileID: 141152705}
     - 500223b472719cc4da9ec663e66be88b: {fileID: 1673996802}
     - 11aaa5f71e7df7d448e4d2c56d8ca2b3: {fileID: 1740491792}
     - 1f4843e09ad430948a13147833c416aa: {fileID: 2055386418}
     - 8ed0ca31732aaef4daad7dd141a598ec: {fileID: 141152705}
     - 3b0ad3ae963d38f47af212f40e53aa66: {fileID: 1740491792}
     - 8b12fcfddd5f1854792c6b738354886c: {fileID: 196391114}
+    - 8b19f9111936ad448a7115d21e59b897: {fileID: 1180084457}
     - 798bf790deae9d240a83cbb7f1c8eba5: {fileID: 141152705}
     - 404015f2b72077641ae9d94f4d596e71: {fileID: 1180084457}
 --- !u!1001 &1958028934
