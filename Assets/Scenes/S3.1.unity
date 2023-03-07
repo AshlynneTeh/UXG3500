@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1702038374}
     m_Modifications:
     - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: InitialModule.size3D
       value: 0
       objectReference: {fileID: 0}
@@ -143,8 +147,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: SizeBySpeedModule.separateAxes
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365285068638276284, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_RootOrder
@@ -152,19 +168,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.54
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.12
+      value: 2.35
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.96
+      value: 36.94
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8289113
+      value: 0.82891124
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -172,15 +188,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.009759288
+      value: 0.009759287
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.014468737
+      value: 0.014468736
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3780271787808032169, guid: 438a016950b08ec4da0a66e6c8100b7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -355,10 +371,8 @@ PlayableDirector:
     value: {fileID: 1192263945}
   - key: {fileID: 4593216670176584266, guid: d56546c83a150694794a30fb10d5a0cd, type: 2}
     value: {fileID: 1457560532}
-  - key: {fileID: 4248642084795452934, guid: d56546c83a150694794a30fb10d5a0cd, type: 2}
+  - key: {fileID: -6982698918446411184, guid: d56546c83a150694794a30fb10d5a0cd, type: 2}
     value: {fileID: 216787197}
-  - key: {fileID: -6394257279301353107, guid: d56546c83a150694794a30fb10d5a0cd, type: 2}
-    value: {fileID: 216787196}
   m_ExposedReferences:
     m_References:
     - cee7ae5bf7c816b44b8095fb99859b62: {fileID: 1156271960}
