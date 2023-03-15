@@ -2778,7 +2778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037931724536041728, guid: 5061bc98dcab4cbca9007b3ac809fd45, type: 3}
       propertyPath: ssgUvRotateSpeed
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5061bc98dcab4cbca9007b3ac809fd45, type: 3}

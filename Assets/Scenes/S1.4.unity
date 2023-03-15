@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.25330302, g: 0.21698889, b: 0.23319246, a: 1}
+  m_IndirectSpecularColor: {r: 0.25330132, g: 0.21698837, b: 0.23319197, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3029,14 +3029,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556073056}
-  m_LocalRotation: {x: 0.55594707, y: 0.43694752, z: -0.43694854, w: 0.55594575}
-  m_LocalPosition: {x: -33.48604, y: 11.427114, z: -9.027966}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -33.24, y: 11.43, z: -13.31}
   m_LocalScale: {x: 1266.837, y: 619.8916, z: 117.73737}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 811678980}
   m_RootOrder: 63
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!23 &556073058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6750,7 +6750,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.27245754, g: 0.5163092, b: 0.5283019, a: 0}
+  m_BackGroundColor: {r: 0.03529412, g: 0.047058824, b: 0.047058824, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -8404,8 +8404,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428609686}
-  m_LocalRotation: {x: 0, y: 0.3069316, z: 0, w: 0.95173156}
-  m_LocalPosition: {x: -11.29, y: -11.429999, z: 138.55}
+  m_LocalRotation: {x: 0, y: 0.98984843, z: 0, w: 0.142127}
+  m_LocalPosition: {x: -14, y: -11.86, z: 139}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11457,6 +11457,10 @@ PrefabInstance:
     - target: {fileID: 1956841112465270854, guid: 5061bc98dcab4cbca9007b3ac809fd45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6037931724536041728, guid: 5061bc98dcab4cbca9007b3ac809fd45, type: 3}
+      propertyPath: ssgUvRotateSpeed
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5061bc98dcab4cbca9007b3ac809fd45, type: 3}
