@@ -128,7 +128,7 @@ Material:
     - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
     - _AnimationDirection: {r: 2, g: 4, b: 2, a: -1}
     - _AnimationTiling: {r: 0.04582553, g: 0.0182, b: 0.045714468, a: 0.027129691}
-    - _BaseColor: {r: 0.89056605, g: 0.9726415, b: 1, a: 0.67058825}
+    - _BaseColor: {r: 0.4273318, g: 0.5808932, b: 0.6320754, a: 0.67058825}
     - _BumpDirection: {r: 40, g: 40, b: 40, a: -40}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
     - _BumpTiling: {r: 0.113900006, g: 0.07, b: 0.08, a: 0.06}
@@ -151,11 +151,7 @@ Material:
     - _HorizonColor: {r: 0.052907113, g: 0.24486735, b: 0.2835821, a: 1}
     - _InvFadeParemeter: {r: 0.001, g: 3, b: 0.04310345, a: 0}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
-<<<<<<< Updated upstream
-    - _ReflectionColor: {r: 0.3887766, g: 0.6153493, b: 0.8018868, a: 0.7372549}
-=======
-    - _ReflectionColor: {r: 0.38877243, g: 0.6153493, b: 0.8018868, a: 0.7372549}
->>>>>>> Stashed changes
+    - _ReflectionColor: {r: 0.4842767, g: 0.61411905, b: 0.7264151, a: 0.7372549}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
