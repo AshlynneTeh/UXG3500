@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -233,7 +233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &99705442
 Camera:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c442662efe0039940901ffcc05ae8bd5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5326045130199911849, guid: c442662efe0039940901ffcc05ae8bd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -582,7 +582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &1434667241
 Camera:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7881246978568817358, guid: 666fd7a4a75442043be8f6c7c6aa1550, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666fd7a4a75442043be8f6c7c6aa1550, type: 3}
@@ -1122,6 +1122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhaleAnim03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c3e6d75be803d0144af758625cf1226e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 938090023232318888, guid: c3e6d75be803d0144af758625cf1226e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.0019030425
@@ -1285,6 +1289,63 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &2211917578423051372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2247658019019026312, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_Name
+      value: Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119671165871722011, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 256065c13e145544a8744e6cc02a1a8b, type: 3}
 --- !u!1001 &3264872616007554717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1295,6 +1356,10 @@ PrefabInstance:
     - target: {fileID: 2417942107348360218, guid: 0cc2d33ea59928e4f8ba38cabc639149, type: 3}
       propertyPath: m_Name
       value: Whale_Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417942107348360218, guid: 0cc2d33ea59928e4f8ba38cabc639149, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3082029111078880928, guid: 0cc2d33ea59928e4f8ba38cabc639149, type: 3}
       propertyPath: m_RootOrder
