@@ -10,12 +10,12 @@ Material:
   m_Name: Clouds
   m_Shader: {fileID: 4800000, guid: 184593afc3724ae8a3125b378c12e085, type: 3}
   m_ValidKeywords:
-  - DSKY_CLOUD_2
+  - DSKY_HORIZON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2501
+  m_CustomRenderQueue: 2502
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -134,8 +134,8 @@ Material:
     - _IntensityT2: 3.3
     - _IntensityT3: 30
     - _IntensityTAll: 1.6
-    - _Level0: 0
-    - _Level1: 10
+    - _Level0: -3.8
+    - _Level1: -86.4
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -166,8 +166,8 @@ Material:
     - _Color: {r: 0.06680315, g: 0.078440495, b: 0.084905684, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Level0Color: {r: 0.37, g: 0.78, b: 0.92, a: 1}
-    - _Level1Color: {r: 0.65, g: 0.86, b: 0.63, a: 1}
+    - _Level0Color: {r: 0.8773585, g: 0.39625975, b: 0.022071842, a: 1}
+    - _Level1Color: {r: 0.9501356, g: 0.9716981, b: 0.40029067, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
     - _TextureV1: {r: 0.7, g: 1.2, b: 0, a: 0}
     - _TextureV2: {r: 1.2, g: 0.7, b: 0, a: 0}
