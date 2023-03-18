@@ -2,18 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Clouds
   m_Shader: {fileID: 4800000, guid: 184593afc3724ae8a3125b378c12e085, type: 3}
-  m_ShaderKeywords: DSKY_CLOUD_1
+  m_ValidKeywords:
+  - DSKY_HORIZON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2501
+  m_CustomRenderQueue: 2502
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -99,6 +101,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1f4ee9ebadb64209bd1c12af20285b15, type: 3}
         m_Scale: {x: 1.7, y: 1.7}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -116,8 +119,8 @@ Material:
     - _IntensityT2: 1
     - _IntensityT3: 2
     - _IntensityTAll: 1.6
-    - _Level0: 0
-    - _Level1: 10
+    - _Level0: -3.8
+    - _Level1: 86.4
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -145,10 +148,11 @@ Material:
     - _Color: {r: 0.45882353, g: 0.40914834, b: 0.30144706, a: 0.92941177}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Level0Color: {r: 0.37, g: 0.78, b: 0.92, a: 1}
-    - _Level1Color: {r: 0.65, g: 0.86, b: 0.63, a: 1}
+    - _Level0Color: {r: 0.88, g: 0.3962933, b: 0.026399974, a: 1}
+    - _Level1Color: {r: 0.9509234, g: 0.97, b: 0.39770004, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
     - _TextureV1: {r: 0.7, g: 1.2, b: 0, a: 0}
     - _TextureV2: {r: 1.2, g: 0.7, b: 0, a: 0}
     - _TextureV3: {r: -0.5, g: -0.5, b: 0, a: 0}
     - _Tint: {r: 0.58823526, g: 0.58823526, b: 0.58823526, a: 1}
+  m_BuildTextureStacks: []

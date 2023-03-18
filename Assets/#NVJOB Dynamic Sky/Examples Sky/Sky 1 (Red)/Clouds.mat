@@ -10,12 +10,12 @@ Material:
   m_Name: Clouds
   m_Shader: {fileID: 4800000, guid: 184593afc3724ae8a3125b378c12e085, type: 3}
   m_ValidKeywords:
-  - DSKY_HORIZON
+  - DSKY_CLOUD_1
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2502
+  m_CustomRenderQueue: 2501
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -163,7 +163,7 @@ Material:
     - _VectorY3: -0.5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.06680315, g: 0.078440495, b: 0.084905684, a: 1}
+    - _Color: {r: 0.017882355, g: 0.026875816, b: 0.03137255, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Level0Color: {r: 0.8773585, g: 0.39625975, b: 0.022071842, a: 1}
