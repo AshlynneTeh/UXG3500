@@ -409,8 +409,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 8.6
     m_ClipIn: 0
-    m_Asset: {fileID: 2400161887077781000}
-    m_Duration: 1.1666666666666667
+    m_Asset: {fileID: 3609648861275945284}
+    m_Duration: 3.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7310262015703481555}
     m_EaseInDuration: 0
@@ -2931,7 +2931,7 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 6217b8242f92fab4f9e45bd9f15db466
     defaultValue: {fileID: 0}
---- !u!114 &2400161887077781000
+--- !u!114 &3609648861275945284
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
