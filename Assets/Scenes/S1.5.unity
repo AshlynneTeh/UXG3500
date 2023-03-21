@@ -1700,6 +1700,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1072101942931053274, guid: d889b2e1cdcd4925bb9f900ab319d6e4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7db90f306fb047a4c889f185bcd1d1f8, type: 2}
     - target: {fileID: 2791910505942828926, guid: d889b2e1cdcd4925bb9f900ab319d6e4, type: 3}
       propertyPath: ssgUvRotateSpeed
       value: 0.1
@@ -4771,7 +4775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796874600}
   m_LocalRotation: {x: 0.029374273, y: 0.44642237, z: -0.03665015, w: 0.89358884}
-  m_LocalPosition: {x: -37.25, y: 1.52, z: 116.06}
+  m_LocalPosition: {x: -37.25, y: 1.995, z: 116.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9945,7 +9949,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686414144}
   m_LocalRotation: {x: 0.035533067, y: 0.6010557, z: -0.030716166, w: 0.7978259}
-  m_LocalPosition: {x: -36.919, y: 1.485, z: 116.309}
+  m_LocalPosition: {x: -36.919, y: 1.96, z: 116.309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11554,7 +11558,7 @@ GameObject:
   - component: {fileID: 2081924611}
   - component: {fileID: 2081924612}
   m_Layer: 0
-  m_Name: S2.1 Camera
+  m_Name: S1.5 Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11593,7 +11597,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5137255, g: 0.5921569, b: 0.6156863, a: 0}
+  m_BackGroundColor: {r: 0.68289304, g: 0.7078418, b: 0.71199995, a: 0}
   m_projectionMatrixMode: 2
   m_GateFitMode: 2
   m_FOVAxisMode: 0

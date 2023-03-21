@@ -10,7 +10,7 @@ Material:
   m_Name: Clouds 1
   m_Shader: {fileID: 4800000, guid: 184593afc3724ae8a3125b378c12e085, type: 3}
   m_ValidKeywords:
-  - DSKY_CLOUD_1
+  - DSKY_CLOUD_2
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -121,14 +121,14 @@ Material:
     - _DetailNormalMapScale: 1
     - _Distance: 0
     - _DstBlend: 0
-    - _Fluffiness: 0.85
+    - _Fluffiness: 1.38
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IntensityB: -0.5
     - _IntensityG: 1.5
-    - _IntensityInput: 0.75
-    - _IntensityOutput: 1.86
+    - _IntensityInput: 0.35
+    - _IntensityOutput: 0.93
     - _IntensityR: 1.5
     - _IntensityT1: 3.38
     - _IntensityT2: 3.3
@@ -163,7 +163,7 @@ Material:
     - _VectorY3: -0.5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.017882355, g: 0.026875816, b: 0.03137255, a: 1}
+    - _Color: {r: 0.36970446, g: 0.7117407, b: 0.8773585, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Level0Color: {r: 0.8773585, g: 0.39625975, b: 0.022071842, a: 1}
