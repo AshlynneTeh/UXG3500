@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Clouds 1
   m_Shader: {fileID: 4800000, guid: 184593afc3724ae8a3125b378c12e085, type: 3}
-  m_ShaderKeywords: DSKY_CLOUD_2
+  m_ValidKeywords:
+  - DSKY_CLOUD_2
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -115,6 +117,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9c8ba4ea275bf7147877777d12f54a16, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -122,17 +125,17 @@ Material:
     - _DetailNormalMapScale: 1
     - _Distance: 0
     - _DstBlend: 0
-    - _Fluffiness: 0.42
+    - _Fluffiness: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IntensityB: -0.72
     - _IntensityG: 2
-    - _IntensityInput: 0.84
-    - _IntensityOutput: 1.01
+    - _IntensityInput: 2.93
+    - _IntensityOutput: 4.88
     - _IntensityR: 2
     - _IntensityT1: 2
-    - _IntensityT2: 2
+    - _IntensityT2: 3
     - _IntensityT3: -0.72
     - _IntensityTAll: 1.6
     - _Level0: 0
@@ -148,8 +151,8 @@ Material:
     - _SpeedX: 0
     - _SpeedY: 15
     - _SrcBlend: 1
-    - _TextureUv1: 5
-    - _TextureUv2: 7
+    - _TextureUv1: 0
+    - _TextureUv2: 1
     - _TextureUv3: 1.7
     - _TextureUvB: 1.7
     - _TextureUvG: 7
@@ -164,7 +167,7 @@ Material:
     - _VectorY3: -0.7
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.98039216, g: 0.96732026, b: 0.9313725, a: 0.7882353}
+    - _Color: {r: 0.2622522, g: 0.56488514, b: 0.8018868, a: 0.7882353}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Level0Color: {r: 0.37, g: 0.78, b: 0.92, a: 1}
@@ -177,3 +180,4 @@ Material:
     - _TextureVG: {r: 1, g: 0.5, b: 0, a: 0}
     - _TextureVR: {r: 0.5, g: 1, b: 0, a: 0}
     - _Tint: {r: 0.58823526, g: 0.58823526, b: 0.58823526, a: 1}
+  m_BuildTextureStacks: []
