@@ -10,7 +10,7 @@ Material:
   m_Name: Sun S1P4
   m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-  - _SUNDISK_HIGH_QUALITY
+  - _SUNDISK_SIMPLE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -75,7 +75,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDisk: 2
+    - _SunDisk: 1
     - _SunSize: 0.098
     - _SunSizeConvergence: 1
     - _UVSec: 0
@@ -83,6 +83,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.33152366, g: 0.58092064, b: 0.7075472, a: 1}
+    - _GroundColor: {r: 0.5441735, g: 0.7025657, b: 0.7830189, a: 1}
     - _SkyTint: {r: 0.16862465, g: 0.34122485, b: 0.46226418, a: 1}
   m_BuildTextureStacks: []
