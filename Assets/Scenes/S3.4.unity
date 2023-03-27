@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 7826434}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1026,8 +1026,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182364108}
-  m_LocalRotation: {x: -0, y: 0.4059663, z: -0, w: -0.91388804}
-  m_LocalPosition: {x: 7.1, y: 6.1, z: 18.4}
+  m_LocalRotation: {x: 0, y: 0.442751, z: -0, w: -0.8966446}
+  m_LocalPosition: {x: 12.399999, y: 6.1, z: 13.599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2113,8 +2113,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385179300}
-  m_LocalRotation: {x: 0, y: 0.40596625, z: 0, w: -0.91388804}
-  m_LocalPosition: {x: 7.1, y: -5.96, z: 18.4}
+  m_LocalRotation: {x: 0, y: 0.4427511, z: 0, w: -0.8966446}
+  m_LocalPosition: {x: 12.399999, y: -5.96, z: 13.599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3333,6 +3333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882133060}
   - component: {fileID: 882133061}
+  - component: {fileID: 882133062}
   m_Layer: 0
   m_Name: Water floating
   m_TagString: Untagged
@@ -3374,6 +3375,26 @@ MonoBehaviour:
   WaveRotations: {x: 0, y: 0, z: 3}
   WaveRotationsSpeed: 0.6
   AxisOffsetSpeed: {x: 0, y: 0, z: 0}
+--- !u!95 &882133062
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882133059}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &920838090
 GameObject:
   m_ObjectHideFlags: 0
@@ -4291,6 +4312,7 @@ GameObject:
   - component: {fileID: 1154705503}
   - component: {fileID: 1154705505}
   - component: {fileID: 1154705504}
+  - component: {fileID: 1154705506}
   m_Layer: 0
   m_Name: Cube.067
   m_TagString: Untagged
@@ -4363,6 +4385,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154705502}
   m_Mesh: {fileID: 149541833691738144, guid: 6a3f3b5dcb9f3bf4282700239b6dce9d, type: 3}
+--- !u!95 &1154705506
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154705502}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1170405437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6305,6 +6347,10 @@ PlayableDirector:
     value: {fileID: 632177063}
   - key: {fileID: 2603033852683722613, guid: 4913c90bd5b2d5a4e844fc0177f4c968, type: 2}
     value: {fileID: 1328633430}
+  - key: {fileID: 8696494683264374795, guid: 4913c90bd5b2d5a4e844fc0177f4c968, type: 2}
+    value: {fileID: 882133062}
+  - key: {fileID: -7557311198330458028, guid: 4913c90bd5b2d5a4e844fc0177f4c968, type: 2}
+    value: {fileID: 1154705506}
   m_ExposedReferences:
     m_References:
     - 8d45657360e2f5e47b7cae138a899bf4: {fileID: 1328633428}
